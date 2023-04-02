@@ -7,7 +7,6 @@
     "noEmit": true,
   },
   "files": [
-    "./.eslintrc.cjs",
-    "./vite.config.ts",
+    "./.eslintrc.cjs"
   ]
 }
