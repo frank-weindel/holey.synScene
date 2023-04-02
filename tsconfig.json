@@ -1,0 +1,18 @@
+{
+  "include": [
+    "rollup.config.js",
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "module": "es2022",
+    "moduleResolution": "node16",
+    "lib": ["es2022"],
+    "outDir": "dist",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true
+  }
+}

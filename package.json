@@ -1,0 +1,30 @@
+{
+  "name": "holey.synscene",
+  "version": "1.0.0",
+  "description": "Synesthesia scene featuring a wavey black hole that changes based on the music. Written in TypeScript and transformed to ES5 with Rollup.",
+  "type": "module",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "lint": "npm run lint:prettier && npm run lint:eslint",
+    "lint:fix": "npm run lint:fix:prettier && npm run lint:fix:eslint",
+    "lint:prettier": "prettier --check \"**/*.{ts,js,cjs,md}\"",
+    "lint:fix:prettier": "prettier --write \"**/*.{ts,js,cjs,md}\"",
+    "lint:eslint": "eslint .",
+    "lint:fix:eslint": "eslint --fix ."
+  },
+  "author": "Frank Weindel",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.3"
+  }
+}

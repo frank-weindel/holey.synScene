@@ -1,0 +1,93 @@
+{
+  "CONTROLS": [
+    {
+      "DEFAULT": 60,
+      "DESCRIPTION": "Speed",
+      "MAX": 300,
+      "MIN": 0,
+      "NAME": "bpm",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 0.5,
+      "DESCRIPTION": "Limit",
+      "MAX": 2,
+      "MIN": 0.25,
+      "NAME": "limit",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 0,
+      "DESCRIPTION": "",
+      "MAX": 1,
+      "MIN": 0,
+      "NAME": "auto",
+      "PARAMS": 0.256,
+      "TYPE": "toggle smooth",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 0,
+      "DESCRIPTION": "",
+      "MAX": 1,
+      "MIN": 0,
+      "NAME": "beatFlash",
+      "TYPE": "toggle",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 5,
+      "DESCRIPTION": "Ripples",
+      "MAX": 32,
+      "MIN": 0,
+      "NAME": "uNumRipples",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 0.2,
+      "DESCRIPTION": "",
+      "MAX": 2,
+      "MIN": 0,
+      "NAME": "uRippleMagnitude",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 0,
+      "DESCRIPTION": "",
+      "MAX": 1,
+      "MIN": 0,
+      "NAME": "uMinSize",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 1,
+      "DESCRIPTION": "",
+      "MAX": 10,
+      "MIN": 0,
+      "NAME": "uRotationMultiplier",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    },
+    {
+      "DEFAULT": 1,
+      "DESCRIPTION": "Decides the factor of how much dynamic audio parameters should be featured in the visual",
+      "MAX": 1,
+      "MIN": 0,
+      "NAME": "uMusicEnabled",
+      "TYPE": "slider",
+      "UI_GROUP": "default"
+    }
+  ],
+  "CREDIT": "Frank Weindel",
+  "DESCRIPTION": "",
+  "GPU": 0,
+  "HEIGHT": 1080,
+  "IMAGE_PATH": "thumb.jpg",
+  "TITLE": "Holey",
+  "WIDTH": 1920
+}
